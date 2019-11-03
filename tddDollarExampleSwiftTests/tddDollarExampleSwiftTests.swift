@@ -33,5 +33,6 @@ class tddDollarExampleSwiftTests: XCTestCase {
   
   func testEquality() {
     XCTAssertTrue(Dollar(5).equals(Dollar(5)))
+    XCTAssertFalse(Dollar(5).equals(Dollar(6)))
   }
 }
