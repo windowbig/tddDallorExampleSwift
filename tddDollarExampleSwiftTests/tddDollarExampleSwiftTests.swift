@@ -16,8 +16,10 @@ import XCTest
  amount를 private로 만들기
  Dollar side effect
  Money 반올림
- eqauls()
+ equals()
  hashCode()
+ Equal nil
+ Equal object
  */
 
 class tddDollarExampleSwiftTests: XCTestCase {
@@ -32,7 +34,7 @@ class tddDollarExampleSwiftTests: XCTestCase {
   }
   
   func testEquality() {
-    XCTAssertTrue(Dollar(5).equals(Dollar(5)))
-    XCTAssertFalse(Dollar(5).equals(Dollar(6)))
+    XCTAssertTrue(Dollar(5) == Dollar(5))
+    XCTAssertFalse(Dollar(5) == Dollar(6))
   }
 }

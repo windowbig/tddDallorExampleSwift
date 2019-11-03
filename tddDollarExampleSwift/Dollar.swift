@@ -17,8 +17,10 @@ struct Dollar {
   mutating func times(_ multiplier: Int) -> Dollar {
     return Dollar(amount * multiplier)
   }
-  
-  func equals(_ dollar: Dollar) -> Bool {
-    return true
+}
+
+extension Dollar: Equatable {
+  public static func ==(lhs: Dollar, rhs: Dollar) -> Bool {
+    return lhs.amount == rhs.amount
   }
 }
