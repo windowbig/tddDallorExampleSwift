@@ -15,6 +15,7 @@
 		4F8F83C6236F0F6300F719EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8F83C4236F0F6300F719EB /* LaunchScreen.storyboard */; };
 		4F8F83D1236F0F6400F719EB /* tddDollarExampleSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F83D0236F0F6400F719EB /* tddDollarExampleSwiftTests.swift */; };
 		4F8F83DC236F0F6400F719EB /* tddDollarExampleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F83DB236F0F6400F719EB /* tddDollarExampleSwiftUITests.swift */; };
+		4FEA0E3E236F129B001DC314 /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA0E3D236F129B001DC314 /* Dollar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4F8F83D7236F0F6400F719EB /* tddDollarExampleSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tddDollarExampleSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8F83DB236F0F6400F719EB /* tddDollarExampleSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tddDollarExampleSwiftUITests.swift; sourceTree = "<group>"; };
 		4F8F83DD236F0F6400F719EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEA0E3D236F129B001DC314 /* Dollar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				4F8F83B9236F0F6200F719EB /* AppDelegate.swift */,
+				4FEA0E3D236F129B001DC314 /* Dollar.swift */,
 				4F8F83BB236F0F6200F719EB /* SceneDelegate.swift */,
 				4F8F83BD236F0F6200F719EB /* ViewController.swift */,
 				4F8F83BF236F0F6200F719EB /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F8F83BE236F0F6200F719EB /* ViewController.swift in Sources */,
+				4FEA0E3E236F129B001DC314 /* Dollar.swift in Sources */,
 				4F8F83BA236F0F6200F719EB /* AppDelegate.swift in Sources */,
 				4F8F83BC236F0F6200F719EB /* SceneDelegate.swift in Sources */,
 			);

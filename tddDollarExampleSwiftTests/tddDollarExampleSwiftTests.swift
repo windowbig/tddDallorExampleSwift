@@ -13,7 +13,9 @@ import XCTest
 /*
  $5 + 10CHF = $10(환율이 2:1일 경우)
  $5 * 2 = $10
- 
+ amount를 private로 만들기
+ Dollar side effect
+ Money 반올림
  */
 
 class tddDollarExampleSwiftTests: XCTestCase {
