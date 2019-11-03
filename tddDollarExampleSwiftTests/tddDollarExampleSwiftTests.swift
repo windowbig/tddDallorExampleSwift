@@ -20,7 +20,10 @@ import XCTest
  [] hashCode()
  [] Equal nil
  [] Equal object
- [] 5CHF * 2 = 10CHF
+ [v] 5CHF * 2 = 10CHF
+ [] Dollar/Franc 중복
+ [] 공용 equals
+ [] 공용 times
  */
 
 class tddDollarExampleSwiftTests: XCTestCase {
