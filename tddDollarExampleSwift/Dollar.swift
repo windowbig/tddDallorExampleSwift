@@ -9,7 +9,7 @@
 import Foundation
 
 struct Dollar {
-  let amount: Int
+  private let amount: Int
   init(_ amount: Int) {
     self.amount = amount
   }
