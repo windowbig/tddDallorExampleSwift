@@ -15,6 +15,6 @@ struct Dollar {
   }
   
   mutating func times(_ multiplier: Int) {
-    amount = 10
+    amount *= multiplier
   }
 }
