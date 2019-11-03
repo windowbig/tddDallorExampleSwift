@@ -9,26 +9,18 @@
 import XCTest
 @testable import tddDollarExampleSwift
 
+// MARK: - Todo List
+/*
+ $5 + 10CHF = $10(환율이 2:1일 경우)
+ $5 * 2 = $10
+ 
+ */
+
 class tddDollarExampleSwiftTests: XCTestCase {
-
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+  
+  func testMultiplication() {
+    let five = Dollar(5)
+    five.times(2)
+    XCTAssertEqual(10, five.amount)
+  }
 }
