@@ -15,6 +15,12 @@ class Money {
    }
 }
 
+extension Money {
+  static func dollar(_ amount: Int) -> Dollar {
+    return Dollar(amount)
+  }
+}
+
 extension Money: Equatable {
   public static func ==(lhs: Money, rhs: Money) -> Bool {
     return lhs.amount == rhs.amount
