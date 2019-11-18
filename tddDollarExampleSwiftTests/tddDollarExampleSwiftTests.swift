@@ -22,8 +22,10 @@ import XCTest
  [] Equal object
  [v] 5CHF * 2 = 10CHF
  [] Dollar/Franc 중복
- [] 공용 equals
+ [v] 공용 equals
  [] 공용 times
+ [] Franc과 Dollar 비교하기
+ [] 통화?
  */
 
 class tddDollarExampleSwiftTests: XCTestCase {
@@ -37,6 +39,8 @@ class tddDollarExampleSwiftTests: XCTestCase {
   func testEquality() {
     XCTAssertTrue(Dollar(5) == Dollar(5))
     XCTAssertFalse(Dollar(5) == Dollar(6))
+    XCTAssertTrue(Franc(5) == Franc(5))
+    XCTAssertFalse(Franc(5) == Franc(6))
   }
   
   func testFrancMultiplication() {
