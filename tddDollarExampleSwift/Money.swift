@@ -8,14 +8,24 @@
 
 import Foundation
 
-class Money {
-   let amount: Int
+protocol MoneyType {
+  func times(_ multiplier: Int) -> Money
+}
+
+class Money: MoneyType {
+  let amount: Int
   init(_ amount: Int) {
      self.amount = amount
    }
+  func times(_ multiplier: Int) -> Money {
+    assertionFailure("must be overried")
+    return Money(1)
+  }
 }
 
 extension Money {
+  
+  
   static func dollar(_ amount: Int) -> Dollar {
     return Dollar(amount)
   }
