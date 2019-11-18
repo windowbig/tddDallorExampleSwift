@@ -8,19 +8,8 @@
 
 import Foundation
 
-struct Dollar {
-  private let amount: Int
-  init(_ amount: Int) {
-    self.amount = amount
-  }
-  
-  func times(_ multiplier: Int) -> Dollar {
+class Dollar: Money {
+ func times(_ multiplier: Int) -> Dollar {
     return Dollar(amount * multiplier)
-  }
-}
-
-extension Dollar: Equatable {
-  public static func ==(lhs: Dollar, rhs: Dollar) -> Bool {
-    return lhs.amount == rhs.amount
   }
 }

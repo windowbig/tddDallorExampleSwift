@@ -17,6 +17,7 @@
 		4F8F83DC236F0F6400F719EB /* tddDollarExampleSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8F83DB236F0F6400F719EB /* tddDollarExampleSwiftUITests.swift */; };
 		4FEA0E3E236F129B001DC314 /* Dollar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA0E3D236F129B001DC314 /* Dollar.swift */; };
 		4FEA0E40236F1CBE001DC314 /* Franc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA0E3F236F1CBE001DC314 /* Franc.swift */; };
+		68C573922382A590009006B0 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C573912382A590009006B0 /* Money.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4F8F83DD236F0F6400F719EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FEA0E3D236F129B001DC314 /* Dollar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar.swift; sourceTree = "<group>"; };
 		4FEA0E3F236F1CBE001DC314 /* Franc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Franc.swift; sourceTree = "<group>"; };
+		68C573912382A590009006B0 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				4F8F83B9236F0F6200F719EB /* AppDelegate.swift */,
+				68C573912382A590009006B0 /* Money.swift */,
 				4FEA0E3D236F129B001DC314 /* Dollar.swift */,
 				4FEA0E3F236F1CBE001DC314 /* Franc.swift */,
 				4F8F83BB236F0F6200F719EB /* SceneDelegate.swift */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C573922382A590009006B0 /* Money.swift in Sources */,
 				4F8F83BE236F0F6200F719EB /* ViewController.swift in Sources */,
 				4FEA0E3E236F129B001DC314 /* Dollar.swift in Sources */,
 				4FEA0E40236F1CBE001DC314 /* Franc.swift in Sources */,
