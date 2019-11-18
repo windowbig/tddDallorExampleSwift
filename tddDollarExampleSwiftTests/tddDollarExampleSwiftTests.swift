@@ -24,7 +24,7 @@ import XCTest
  [] Dollar/Franc 중복
  [v] 공용 equals
  [] 공용 times
- [] Franc과 Dollar 비교하기
+ [v] Franc과 Dollar 비교하기
  [] 통화?
  */
 
@@ -39,9 +39,9 @@ class tddDollarExampleSwiftTests: XCTestCase {
   func testEquality() {
     XCTAssertTrue(Money.dollar(5) == Money.dollar(5))
     XCTAssertFalse(Money.dollar(5) == Money.dollar(6))
-    XCTAssertTrue(Franc(5) == Franc(5))
-    XCTAssertFalse(Franc(5) == Franc(6))
-    XCTAssertFalse(Franc(5) == Money.dollar(5))
+    XCTAssertTrue(Money.franc(5) == Money.franc(5))
+    XCTAssertFalse(Money.franc(5) == Money.franc(6))
+    XCTAssertFalse(Money.franc(5) == Money.dollar(5))
   }
   
   func testFrancMultiplication() {

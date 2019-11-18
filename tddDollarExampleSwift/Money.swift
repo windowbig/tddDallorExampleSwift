@@ -27,6 +27,10 @@ extension Money {
   static func dollar(_ amount: Int) -> Dollar {
     return Dollar(amount)
   }
+  
+  static func franc(_ amount: Int) -> Franc {
+    return Franc(amount)
+  }
 }
 
 extension Money: Equatable {
